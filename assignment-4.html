@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<style>
+    body{
+       background: linear-gradient(90deg,gray,white);
+    }
+    #root{
+
+        text-align: center;
+        width: 400px;
+       margin: 150px auto;
+       border: 1px solid black;
+       padding: 20px;
+       border-radius: 20px;
+       box-shadow: 0px 0px 15px black;
+       background-color: white;
+      
+    }
+    p{
+        font-size: large;
+    }
+    img{
+        box-shadow: 0px 0px 30px gray;
+        border-radius: 20px;
+
+    }
+</style>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        const divref=React.createElement('div',null,[React.createElement('img',{src:'./card.png' ,height:'200px',width:"100%"}),React.createElement('h1',null,'Saiteja'),React.createElement('h4',null,'UI/UX devloper'),React.createElement('div',{style:{display:'flex', justifyContent: "space-around"}},[React.createElement('div',null,[React.createElement('p',null,'26'),React.createElement('p',null,'Shoot')]),React.createElement('div',null,[React.createElement('p',null,'98'),React.createElement('p',null,'Following')]),React.createElement('div',null,[React.createElement('p',null,'139'),React.createElement('p',null,'Followers')])])])
+       
+       
+       
+       
+       
+    
+        ReactDOM.render(divref,document.getElementById('root'))
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukka saiteja resume</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    #root{
+        width: 70%;
+        border: 1px solid black;
+        margin: 20px auto;
+        padding: 10px;
+        border-color: white;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 30px white;
+    }
+</style>
+</head>
+<body>
+    <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi molestiae inventore quas deserunt doloremque quis explicabo tenetur repellat eos. Iure ullam corrupti quis accusamus eveniet ipsam molestias quasi, possimus labore perspiciatis dignissimos praesentium, exercitationem nulla consequatur expedita corporis porro. -->
+    <div id="root"></div>
+    <script>
+   const divref=React.createElement('div',null,[React.createElement('div',{style:{borderBottom:'1px solid black',padding:'20px'}},[React.createElement('h2',null,'Mukka saiteja'),React.createElement('h5',null,'Software Developer'),React.createElement('a',{href:'https://github.com/mukkasaiteja'},'Github'),React.createElement('a',{href:'https://www.linkedin.com/in/sai-teja-mukka-7a50671b0/'},'Linkdin')]),React.createElement('div',{style:{borderBottom:'1px solid black',padding:'20px'}},[React.createElement('h2',null,'Experience'),React.createElement('h4',null,'Software developer at Amazon'),React.createElement('p',null,' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi molestiae inventore quas deserunt doloremque quis explicabo tenetur repellat eos. Iure ullam corrupti quis accusamus eveniet ipsam molestias quasi, possimus labore perspiciatis dignissimos praesentium, exercitationem nulla consequatur expedita corporis porro.')]),React.createElement('div',null,[React.createElement('h3',null,'Skills'),React.createElement('h4',null,'java'),React.createElement('h4',null,'    HTML'),React.createElement('h4',null,'CSS'),React.createElement('h4',null,'JAVASCRPIT')])])
+
+
+   ReactDOM.render(divref,document.getElementById('root'));
+
+
+    </script>
+    
+</body>
+</html>
